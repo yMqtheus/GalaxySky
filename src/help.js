@@ -226,9 +226,9 @@ const help = (prefix) => {
 ➛ *${prefix}belle [img aleatórias]*
 ➛ *${prefix}pronomeneu [texto]*
 ➛ *${prefix}hobby*
-➛ *𝗡𝗢𝗠𝗘: nabuto
+➛ *𝗡𝗢𝗠𝗘: yMqtheus
 ➛ *𝗪𝗣𝗣: wa.me/+553493354233
-【 NABUTO 】
+【 yMqtheus】
 ➢【 𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 𝗗𝗘 𝗠𝗨𝗦𝗜𝗖𝗔 】
 
 ➛ *${prefix} em teste
@@ -261,13 +261,13 @@ Mandar a msg sem o prefixo
 
 ➢【 𝗗𝗢𝗡𝗢 】
 
- *𝗡𝗢𝗠𝗘: nabuto
+ *𝗡𝗢𝗠𝗘: yMqtheus
  *𝗪𝗣𝗣: wa.me/+553493354233
 
 
 
 
-【 NABUTO 】`
+【 yMqtheus 】`
 }
 
 exports.help = help
