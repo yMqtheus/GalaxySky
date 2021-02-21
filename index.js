@@ -304,7 +304,7 @@ async function starts() {
 			const mod = [ownerNumber,"553493354233@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["553493354233@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["553493354233@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["553493354233@s.whatsapp.net","557582115780@s.whatsapp.net","558189714073@s.whatsapp.net","5511959150788@s.whatsapp.net"]
+			const premium = ["553493354233@s.whatsapp.net","557582115780@s.whatsapp.net","558189714073@s.whatsapp.net","5511959150788@s.whatsapp.net","5527993163047@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -3456,6 +3456,16 @@ break
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://1.bp.blogspot.com/-3K_b14RzHTA/XwTW7SQTPRI/AAAAAAAAPtY/UOaKURECbzwXfvASa3g6Pz0D_Ha73Dw4wCLcBGAsYHQ/s1600/boabronha_10.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'olha p isso mano, pqp '})
+					break
+				case 'daftar':
+					client.updatePresence(from, Presence.composing)
+					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar ICHI|12`)
+					var reg = body.slice(8)
+					var jeneng = reg.split("|")[0];
+					var umure = reg.split("|")[1];
+						user.push(sender)
+						fs.writeFileSync('./src/user.json', JSON.stringify(user))
+						client.sendMessage(from, `\`\`\`Pendaftaran berhasil dengan SN: TM08GK8HEUZBEHDO\`\`\`\n\n\`\`\`Pada ${date} ${time}\`\`\`\n\`\`\`[Nome]: ${jeneng}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`[Era]: ${umure}\`\`\`\n\`\`\`Para usar um bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTotal de usuários ${user.length}\`\`\``, text, {quoted: mek})
 					break
 				case 'akeno':
 					meme = await kagApi.memes()
