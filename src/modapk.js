@@ -1,4 +1,4 @@
-const modapk = () => { 
+const moda pk = () => { 
 	return `
 	*Mod de aplicativo*
 • Quer baixar algo?

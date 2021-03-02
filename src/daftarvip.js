@@ -1,10 +1,10 @@
 const daftarvip = (prefix) => { 
 	return `
 	
-*PREÇO DE LISTA VIP :*
+*PREÇOS PARA TER PREMIUM :*
 
--Rp. 10 > Acessar recursos ViP
--Rp. 20 > Recursos VIP + Insira o bot no seu grupo!
+-Rp. 10 > Acesso aos recursos *PREMIUM*
+-Rp. 20 > Bot adicionado ao seu grupo + Acesso aos recursos *PREMIUM*
 
 *SE QUER REGISTAR VIP :*
 
@@ -12,7 +12,7 @@ const daftarvip = (prefix) => {
 
 _wa.me/553493354233 ou digite *${prefix}owner*_
 
-*NOTA*
+*OBS:*
 
 *GRUPO DO BOT:*
 _ https://chat.whatsapp.com/GBH4CfkENSUG1N960KnVoc`

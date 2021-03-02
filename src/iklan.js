@@ -5,14 +5,14 @@ const iklan = () => {
 ╠═══════════════════════════
 ╠➥ *LISTA DE ALUGUEL E CRIAR BOTS:*
 ╠➥ *ALUGUEL: 10 / GRUPO (MÊS)*
-╠➥ *CRIAR: 35 (PODE SER PROPRIETÁRIO)*
+╠➥ *CRIAR: 25 (PODE SER PROPRIETÁRIO)*
 ╠➥ *PODE PAGAR ATRAVÉS DE:*
-╠➥ *PIC PAY,*
+╠➥ *PIC PAY, MERCADO PAGO, GIFT CARD*
 ╠═══════════════════════════
 ╠➥ *VANTAGENS*
 ╠➥ *wa.me/553493354233*
 ║
-╚═〘 NABUTO BOT 〙
+╚═〘 *_FihDo~Theus~_* 〙
 `
 }
 exports.iklan = iklan
